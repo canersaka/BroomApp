@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51DF33172B50AB8F00FB15FE /* BroomAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DF33162B50AB8F00FB15FE /* BroomAppApp.swift */; };
+		51DF33192B50AB8F00FB15FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DF33182B50AB8F00FB15FE /* ContentView.swift */; };
+		51DF331B2B50AB8F00FB15FE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DF331A2B50AB8F00FB15FE /* Item.swift */; };
+		51DF331D2B50AB9000FB15FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51DF331C2B50AB9000FB15FE /* Assets.xcassets */; };
+		51DF33202B50AB9000FB15FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51DF331F2B50AB9000FB15FE /* Preview Assets.xcassets */; };
+		51DF332A2B50AB9100FB15FE /* BroomAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DF33292B50AB9100FB15FE /* BroomAppTests.swift */; };
+		51DF33342B50AB9100FB15FE /* BroomAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DF33332B50AB9100FB15FE /* BroomAppUITests.swift */; };
+		51DF33362B50AB9100FB15FE /* BroomAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DF33352B50AB9100FB15FE /* BroomAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51DF33262B50AB9100FB15FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51DF330B2B50AB8F00FB15FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51DF33122B50AB8F00FB15FE;
+			remoteInfo = BroomApp;
+		};
+		51DF33302B50AB9100FB15FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51DF330B2B50AB8F00FB15FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51DF33122B50AB8F00FB15FE;
+			remoteInfo = BroomApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51DF33132B50AB8F00FB15FE /* BroomApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BroomApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51DF33162B50AB8F00FB15FE /* BroomAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroomAppApp.swift; sourceTree = "<group>"; };
+		51DF33182B50AB8F00FB15FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		51DF331A2B50AB8F00FB15FE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		51DF331C2B50AB9000FB15FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51DF331F2B50AB9000FB15FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51DF33252B50AB9100FB15FE /* BroomAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BroomAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51DF33292B50AB9100FB15FE /* BroomAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroomAppTests.swift; sourceTree = "<group>"; };
+		51DF332F2B50AB9100FB15FE /* BroomAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BroomAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51DF33332B50AB9100FB15FE /* BroomAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroomAppUITests.swift; sourceTree = "<group>"; };
+		51DF33352B50AB9100FB15FE /* BroomAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroomAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51DF33102B50AB8F00FB15FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51DF33222B50AB9100FB15FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51DF332C2B50AB9100FB15FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51DF330A2B50AB8F00FB15FE = {
+			isa = PBXGroup;
+			children = (
+				51DF33152B50AB8F00FB15FE /* BroomApp */,
+				51DF33282B50AB9100FB15FE /* BroomAppTests */,
+				51DF33322B50AB9100FB15FE /* BroomAppUITests */,
+				51DF33142B50AB8F00FB15FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51DF33142B50AB8F00FB15FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51DF33132B50AB8F00FB15FE /* BroomApp.app */,
+				51DF33252B50AB9100FB15FE /* BroomAppTests.xctest */,
+				51DF332F2B50AB9100FB15FE /* BroomAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51DF33152B50AB8F00FB15FE /* BroomApp */ = {
+			isa = PBXGroup;
+			children = (
+				51DF33162B50AB8F00FB15FE /* BroomAppApp.swift */,
+				51DF33182B50AB8F00FB15FE /* ContentView.swift */,
+				51DF331A2B50AB8F00FB15FE /* Item.swift */,
+				51DF331C2B50AB9000FB15FE /* Assets.xcassets */,
+				51DF331E2B50AB9000FB15FE /* Preview Content */,
+			);
+			path = BroomApp;
+			sourceTree = "<group>";
+		};
+		51DF331E2B50AB9000FB15FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				51DF331F2B50AB9000FB15FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51DF33282B50AB9100FB15FE /* BroomAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				51DF33292B50AB9100FB15FE /* BroomAppTests.swift */,
+			);
+			path = BroomAppTests;
+			sourceTree = "<group>";
+		};
+		51DF33322B50AB9100FB15FE /* BroomAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51DF33332B50AB9100FB15FE /* BroomAppUITests.swift */,
+				51DF33352B50AB9100FB15FE /* BroomAppUITestsLaunchTests.swift */,
+			);
+			path = BroomAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51DF33122B50AB8F00FB15FE /* BroomApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51DF33392B50AB9100FB15FE /* Build configuration list for PBXNativeTarget "BroomApp" */;
+			buildPhases = (
+				51DF330F2B50AB8F00FB15FE /* Sources */,
+				51DF33102B50AB8F00FB15FE /* Frameworks */,
+				51DF33112B50AB8F00FB15FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BroomApp;
+			productName = BroomApp;
+			productReference = 51DF33132B50AB8F00FB15FE /* BroomApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51DF33242B50AB9100FB15FE /* BroomAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51DF333C2B50AB9100FB15FE /* Build configuration list for PBXNativeTarget "BroomAppTests" */;
+			buildPhases = (
+				51DF33212B50AB9100FB15FE /* Sources */,
+				51DF33222B50AB9100FB15FE /* Frameworks */,
+				51DF33232B50AB9100FB15FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51DF33272B50AB9100FB15FE /* PBXTargetDependency */,
+			);
+			name = BroomAppTests;
+			productName = BroomAppTests;
+			productReference = 51DF33252B50AB9100FB15FE /* BroomAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51DF332E2B50AB9100FB15FE /* BroomAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51DF333F2B50AB9100FB15FE /* Build configuration list for PBXNativeTarget "BroomAppUITests" */;
+			buildPhases = (
+				51DF332B2B50AB9100FB15FE /* Sources */,
+				51DF332C2B50AB9100FB15FE /* Frameworks */,
+				51DF332D2B50AB9100FB15FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51DF33312B50AB9100FB15FE /* PBXTargetDependency */,
+			);
+			name = BroomAppUITests;
+			productName = BroomAppUITests;
+			productReference = 51DF332F2B50AB9100FB15FE /* BroomAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51DF330B2B50AB8F00FB15FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					51DF33122B50AB8F00FB15FE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					51DF33242B50AB9100FB15FE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 51DF33122B50AB8F00FB15FE;
+					};
+					51DF332E2B50AB9100FB15FE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 51DF33122B50AB8F00FB15FE;
+					};
+				};
+			};
+			buildConfigurationList = 51DF330E2B50AB8F00FB15FE /* Build configuration list for PBXProject "BroomApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51DF330A2B50AB8F00FB15FE;
+			productRefGroup = 51DF33142B50AB8F00FB15FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51DF33122B50AB8F00FB15FE /* BroomApp */,
+				51DF33242B50AB9100FB15FE /* BroomAppTests */,
+				51DF332E2B50AB9100FB15FE /* BroomAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51DF33112B50AB8F00FB15FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DF33202B50AB9000FB15FE /* Preview Assets.xcassets in Resources */,
+				51DF331D2B50AB9000FB15FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51DF33232B50AB9100FB15FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51DF332D2B50AB9100FB15FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51DF330F2B50AB8F00FB15FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DF33192B50AB8F00FB15FE /* ContentView.swift in Sources */,
+				51DF331B2B50AB8F00FB15FE /* Item.swift in Sources */,
+				51DF33172B50AB8F00FB15FE /* BroomAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51DF33212B50AB9100FB15FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DF332A2B50AB9100FB15FE /* BroomAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51DF332B2B50AB9100FB15FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DF33362B50AB9100FB15FE /* BroomAppUITestsLaunchTests.swift in Sources */,
+				51DF33342B50AB9100FB15FE /* BroomAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51DF33272B50AB9100FB15FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51DF33122B50AB8F00FB15FE /* BroomApp */;
+			targetProxy = 51DF33262B50AB9100FB15FE /* PBXContainerItemProxy */;
+		};
+		51DF33312B50AB9100FB15FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51DF33122B50AB8F00FB15FE /* BroomApp */;
+			targetProxy = 51DF33302B50AB9100FB15FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		51DF33372B50AB9100FB15FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51DF33382B50AB9100FB15FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51DF333A2B50AB9100FB15FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BroomApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 28F4H7B744;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broom.BroomApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51DF333B2B50AB9100FB15FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BroomApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 28F4H7B744;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broom.BroomApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51DF333D2B50AB9100FB15FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28F4H7B744;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broom.BroomAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BroomApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BroomApp";
+			};
+			name = Debug;
+		};
+		51DF333E2B50AB9100FB15FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28F4H7B744;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broom.BroomAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BroomApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BroomApp";
+			};
+			name = Release;
+		};
+		51DF33402B50AB9100FB15FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28F4H7B744;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broom.BroomAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BroomApp;
+			};
+			name = Debug;
+		};
+		51DF33412B50AB9100FB15FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28F4H7B744;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broom.BroomAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BroomApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51DF330E2B50AB8F00FB15FE /* Build configuration list for PBXProject "BroomApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51DF33372B50AB9100FB15FE /* Debug */,
+				51DF33382B50AB9100FB15FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51DF33392B50AB9100FB15FE /* Build configuration list for PBXNativeTarget "BroomApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51DF333A2B50AB9100FB15FE /* Debug */,
+				51DF333B2B50AB9100FB15FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51DF333C2B50AB9100FB15FE /* Build configuration list for PBXNativeTarget "BroomAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51DF333D2B50AB9100FB15FE /* Debug */,
+				51DF333E2B50AB9100FB15FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51DF333F2B50AB9100FB15FE /* Build configuration list for PBXNativeTarget "BroomAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51DF33402B50AB9100FB15FE /* Debug */,
+				51DF33412B50AB9100FB15FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51DF330B2B50AB8F00FB15FE /* Project object */;
+}
