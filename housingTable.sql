@@ -1,0 +1,1 @@
+select * from addsqm where houseNum=8 and streetName='Cavanaugh Pt'
